@@ -1,0 +1,28 @@
+/* Body & Global */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Card */
+.auth-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+  animation: fadeIn 0.5s ease-in;
+}
